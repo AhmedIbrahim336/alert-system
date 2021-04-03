@@ -102,12 +102,22 @@ body {
   outline: none;
 }
 
-.hide-alert {
-  top: -100%;
+.hide-alert-left {
+  bottom: 0px;
   left: -100%;
 }
 
-.alert-left {
-  bottom: 0;
+.show-alert-left {
+  bottom: 0px;
+  left: 0;
+}
+
+.hide-alert-right {
+  bottom: 0px;
+  left: -100%;
+}
+
+.show-alert-right {
+  bottom: 0px;
   left: 0;
 }
