@@ -64,3 +64,31 @@ body {
   outline: none;
   border: 10px solid #818cf8;
 }
+
+#alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 3px 6px 9px #d1d5db;
+  transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+#alert:hover {
+  transform: scale(1.02);
+  transition: transform 0.4s ease;
+}
+
+#alert p {
+  font-size: 17px;
+  margin-right: 10px;
+}
+
