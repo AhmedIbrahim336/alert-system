@@ -9,6 +9,8 @@
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
+  color: #374151;
+  background-color: #f3f4f6;
 }
 
 .container {
@@ -27,10 +29,38 @@ body {
 
 .btns-box div {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  text-align: center;
 }
 
 .btns-box div div {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.btn {
+  width: 6rem;
+  height: 3rem;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #818cf8;
+  color: #3730a3;
+}
+
+.btn-primary:hover {
+  opacity: 0.86;
+}
+
+.btn:focus {
+  outline: none;
+  border: 10px solid #818cf8;
 }
