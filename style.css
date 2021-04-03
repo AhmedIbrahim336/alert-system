@@ -113,11 +113,11 @@ body {
 }
 
 .hide-alert-right {
-  bottom: 0px;
-  left: -100%;
+  top: 0px;
+  right: -100%;
 }
 
 .show-alert-right {
-  bottom: 0px;
-  left: 0;
+  top: 0px;
+  right: 0;
 }
