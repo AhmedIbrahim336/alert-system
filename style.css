@@ -20,6 +20,17 @@ body {
   justify-content: center;
 }
 
-.btns-box {
+.btns-box h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
+.btns-box div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns-box div div {
+  display: flex;
 }
