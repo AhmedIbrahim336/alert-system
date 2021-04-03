@@ -67,8 +67,6 @@ body {
 
 #alert {
   position: absolute;
-  top: -100%;
-  left: -100%;
   background: #1f2937;
   color: #e5e7eb;
   padding: 20px;
@@ -104,5 +102,12 @@ body {
   outline: none;
 }
 
-#alert-left {
+.hide-alert {
+  top: -100%;
+  left: -100%;
+}
+
+.alert-left {
+  bottom: 0;
+  left: 0;
 }
