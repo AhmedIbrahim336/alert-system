@@ -22,31 +22,12 @@ body {
   justify-content: center;
 }
 
-.btns-box h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.btns-box div {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  text-align: center;
-}
-
-.btns-box div div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-}
 .btn {
-  width: 6rem;
-  height: 3rem;
   margin: 4px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  padding: 20px 50px;
 }
 
 .btn-primary {
@@ -62,7 +43,7 @@ body {
 
 .btn:focus {
   outline: none;
-  border: 10px solid #818cf8;
+  border: 4px solid #3730a3;
 }
 
 #alert {
