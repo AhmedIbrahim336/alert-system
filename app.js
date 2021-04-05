@@ -1,6 +1,4 @@
-const btnLeft = document.getElementById('left');
-const butRight = document.getElementById('right');
-const alert = document.getElementById('alert');
+const action = document.getElementById('action');
 
 btnLeft.addEventListener('click', e => {
   //   alert.classList.remove('hide-alert');
